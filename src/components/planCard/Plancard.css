@@ -1,0 +1,58 @@
+.planCard {
+  background-color: #343541;
+  width: 20%;
+  padding: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  cursor: pointer;
+}
+
+.planCard:hover {
+  transform: scale(1.06);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.planName {
+  font-weight: bold;
+}
+
+.planPrice {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.planDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.description {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.moreBenefits {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.joinNow {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #42b72a;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .planCard {
+    width: 75%;
+  }
+}

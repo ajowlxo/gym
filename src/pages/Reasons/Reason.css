@@ -1,0 +1,98 @@
+.reasons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.leftSide {
+  display: flex;
+  gap: 10px;
+}
+
+.leftImage > img {
+  height: 32rem;
+  width: 13rem;
+}
+
+.rightImages {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: 30rem;
+}
+
+.bottomright {
+  display: flex;
+  gap: 10px;
+}
+
+.topRight > img {
+  height: 16.5rem;
+  width: 26.5rem;
+}
+
+.bottomright > img {
+  height: 15rem;
+  width: 13rem;
+}
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.top {
+  font-weight: bold;
+  color: #42b72a;
+}
+
+.header {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.reason {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.reason > span {
+  color: white;
+  font-weight: bold;
+}
+
+.reasonIcon {
+  font-size: 2rem;
+  color: #42b72a;
+}
+
+.partners {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 1rem;
+  color: gray;
+  font-weight: bold;
+}
+.partnerLogos {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.partnerLogo {
+  font-size: 4rem;
+  color: gray;
+}
+
+@media screen and (max-width: 768px) {
+  .leftSide {
+    display: none;
+  }
+
+  .reason > span {
+    font-size: 0.7rem;
+  }
+}

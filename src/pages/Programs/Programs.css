@@ -1,0 +1,43 @@
+.programs {
+  margin-bottom: 2rem;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.heading > span {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.pro {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #42b72a;
+}
+
+.programCards {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .heading > span {
+    font-size: 0.67rem;
+  }
+  .pro {
+    font-size: 0.67rem;
+  }
+  .programCards {
+    display: flex;
+    flex-direction: column;
+  }
+}

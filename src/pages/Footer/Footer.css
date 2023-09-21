@@ -1,0 +1,103 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+.socials {
+  display: flex;
+  gap: 6rem;
+}
+
+.logo {
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.jd {
+  color: black;
+  padding: 0.7rem;
+  font-weight: bolder;
+  font-size: larger;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.gym {
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  border: 2px solid;
+  border-top-color: #42b72a;
+
+  border-right-color: #42b72a;
+}
+
+.socialIcons {
+  color: gray;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.footerLine {
+  width: 100%;
+  border-top: 2px solid green;
+}
+
+/* .emailList {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 45px;
+  background-color: white;
+  border-radius: 5px;
+} */
+
+.emailList > input {
+  padding: 15px 45px;
+  color: gray;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.emailButton {
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  border: none;
+  background-color: #42b72a;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    gap: 2rem;
+  }
+  .emailList > input {
+    padding: 5px;
+    width: 60%;
+  }
+  .emailButton {
+    padding: 5px;
+  }
+  .social {
+    gap: 1rem;
+  }
+  .socialIcons {
+    font-size: 1.5rem;
+  }
+  .jd {
+    padding: 0.3rem;
+  }
+  .gym {
+    padding: 0.1rem;
+  }
+}

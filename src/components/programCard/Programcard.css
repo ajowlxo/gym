@@ -1,0 +1,37 @@
+.programCard {
+  background-color: #343541;
+  width: 20%;
+  padding: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  cursor: pointer;
+}
+
+.programCard:hover {
+  background-color: #42b72a;
+}
+.programHeader {
+  font-weight: bold;
+}
+
+.join {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.icon {
+  font-size: 2.5rem;
+}
+
+.iconSecond {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .programCard {
+    width: 75%;
+  }
+}

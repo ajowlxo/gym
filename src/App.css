@@ -1,0 +1,16 @@
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  background-color: #202123;
+  padding: 0.5rem 2rem;
+  font-family: "Inter", sans-serif;
+}
+
+.green {
+  color: #42b72a;
+}

@@ -1,0 +1,42 @@
+.planHeading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.planHeading > span {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.colorSpan {
+  color: #42b72a;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.planCards {
+  display: flex;
+  gap: 3rem;
+  margin-left: 8rem;
+}
+
+.planIcon {
+  font-size: 2.5rem;
+  color: #42b72a;
+}
+
+@media screen and (max-width: 768px) {
+  .planHeading > span {
+    font-size: 0.65rem;
+  }
+  .colorSpan {
+    font-size: 0.65rem;
+  }
+  .planCards {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+}

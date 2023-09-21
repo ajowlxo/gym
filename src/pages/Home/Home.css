@@ -1,0 +1,143 @@
+.home {
+  position: relative;
+}
+.bestFitness {
+  padding: 0.8rem;
+  border-radius: 3rem;
+  background-color: #343541;
+  width: fit-content;
+  position: relative;
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.bestFitness > span {
+  color: white;
+  z-index: 2;
+}
+
+.upper {
+  width: 18%;
+
+  padding: 1.2rem;
+  position: absolute;
+  background-color: #42b72a;
+  border-radius: 2rem;
+  left: 0.2rem;
+  z-index: 1;
+}
+
+.shape {
+  margin-top: 3rem;
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.ideal {
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.motive {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.gymInfo {
+  display: flex;
+  gap: 1rem;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+}
+
+.number {
+  color: white;
+  font-size: 2rem;
+}
+.program {
+  font-size: large;
+  color: gray;
+  text-transform: capitalize;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.getStarted {
+  padding: 0.5rem 1rem;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: #42b72a;
+  cursor: pointer;
+}
+
+.learnMore {
+  padding: 0.5rem 1rem;
+  border: 1px solid #42b72a;
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    padding-top: 1.5rem;
+  }
+  .bestFitness {
+    margin-top: 5rem;
+    padding: 0.9rem;
+  }
+  .bestFitness > span {
+    font-size: small;
+  }
+  .shape {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+  .ideal {
+    font-size: 2rem;
+  }
+  .motive {
+    font-size: 0.7rem;
+  }
+  .number {
+    font-size: 1.5rem;
+  }
+  .program {
+    font-size: 0.8rem;
+  }
+  .jd {
+    padding: 0.3rem;
+  }
+  .gym {
+    padding: 0.1rem;
+  }
+
+  .navbarLinks {
+    flex-direction: column;
+    gap: 5px;
+    font-size: small;
+    position: absolute;
+    background-color: #343541;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+    top: 1rem;
+    left: 9rem;
+    z-index: 99;
+  }
+}

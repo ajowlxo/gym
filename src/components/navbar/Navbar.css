@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+  align-items: center;
+}
+.jd {
+  color: black;
+  padding: 0.7rem;
+  font-weight: bolder;
+  font-size: larger;
+  border-radius: 50%;
+  background-color: white;
+}
+.gym {
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  border: 2px solid;
+  border-top-color: #42b72a;
+
+  border-right-color: #42b72a;
+}
+.navbarLinks {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbarItems {
+  list-style: none;
+  color: white;
+}
+
+.navbarItems:hover {
+  cursor: pointer;
+  color: #42b72a;
+}
+
+.hamMenu {
+  font-size: 1.3rem;
+  color: white;
+  position: absolute;
+  left: 14rem;
+  cursor: pointer;
+
+  z-index: 99;
+}
